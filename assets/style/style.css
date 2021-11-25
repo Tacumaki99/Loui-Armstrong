@@ -1,18 +1,44 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 body{
-    margin:auto;
-
+    background-color: red;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Playfair Display', serif;
+    
 }
 
-
-.menuplace{
+header{
     background-image: url(../img/1.png);
     background-position: center;
     background-repeat:no-repeat ;
-    width: 100%;
-    padding: 50px;
-    
+    background-size:cover;
+    height: 1000px;
+    padding: 50px;    
 }
+
+
+
+header h1{
+    font-size: 45pt;
+    float: left;    
+}
+
+
+header nav ul{
+    list-style-type: none;
+    margin-right: 2%;
+    float: right
+}
+
+
+header nav ul li {
+    float: left ;
+    font-size: 25pt;
+    padding: 10px;
+}
+
