@@ -58,9 +58,10 @@ header nav ul li {
     float: left;
 }
 
-.followicon { 
+.followicon {
     width: fit-content;
     margin: auto;
+    text-align: center;
 }
 
 .followicon  i {
@@ -70,6 +71,10 @@ header nav ul li {
 
 .followicon p {
     font-size: 35px;
+}
+
+.followicon-icons-wrapper{
+    margin: 15px auto;
 }
 
 
