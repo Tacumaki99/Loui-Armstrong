@@ -81,6 +81,9 @@ header nav ul li {
 footer {
     height: 75px;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer p {
