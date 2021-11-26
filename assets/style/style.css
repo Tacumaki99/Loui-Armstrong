@@ -3,6 +3,16 @@
     padding:0;
     box-sizing: border-box;
 }
+
+.cleaner {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 body{
     background-color: red;
     background-repeat: no-repeat;
@@ -42,3 +52,36 @@ header nav ul li {
     padding: 10px;
 }
 
+
+.slikelink{
+    margin:5%;
+    float: left;
+}
+
+.followicon  i {
+    color: #4267B2;
+    font-size: 35px;
+    margin: auto;
+}
+
+.followicon p {
+    font-size: 35px;
+}
+
+.followicon {
+    margin: auto;
+}
+
+
+
+footer {
+    height: 75px;
+    background-color: black;
+}
+
+footer p {
+    margin: auto;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+}
