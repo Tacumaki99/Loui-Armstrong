@@ -14,7 +14,6 @@ a {
 }
 
 body{
-    background-color: red;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -22,8 +21,9 @@ body{
     
 }
 
-header{
-    background-image: url(../img/1.png);
+.page1{
+    /* background-image: url(../img/1.png); */
+    background-color: cornflowerblue;
     background-position: center;
     background-repeat:no-repeat ;
     background-size:cover;
@@ -58,9 +58,10 @@ header nav ul li {
     float: left;
 }
 
-.followicon { 
+.followicon {
     width: fit-content;
     margin: auto;
+    text-align: center;
 }
 
 .followicon  i {
@@ -72,10 +73,17 @@ header nav ul li {
     font-size: 35px;
 }
 
+.followicon-icons-wrapper{
+    margin: 15px auto;
+}
+
 
 footer {
     height: 75px;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer p {
@@ -89,4 +97,55 @@ footer p {
 footer i {
     color:  white;
     font-size: 30px;
+    margin: 5px;
+}
+
+/*.page2{
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size:cover;
+    height: 1000px;
+    padding: 50px;    
+}
+*/
+
+
+
+
+.quick-info {
+    border-style: solid;
+    border-width: 2px;
+    margin: 13% auto 0 auto;
+    text-align: center;
+    width: 60%;
+    background-color: cornsilk;
+}
+
+.quick-info h3{
+    font-size: 45px;
+}
+
+.quick-info h4{
+    font-size: 35px;
+}
+
+.quick-info p{
+    font-size: 25px;
+    margin: 10px;
+}
+
+.early-life {
+    margin: 5%;
+    text-align: left;
+    width: 50%;
+    font-size: 25px;
+}
+
+.early-life h3{
+    font-size: 55px;
+}
+
+.early-life p {
+    text-indent: 50px;
+    margin: 13px 0;
 }

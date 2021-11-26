@@ -14,16 +14,17 @@
         <title>Louis Armstrong</title>
     </head>
     <body>
-        <div id="page1">
+        <div id="no1">
             
-            <header>
+            <header class="page1">
             <!---levo naslov-->
                 <h1>Louis Armstrong</h1>
                 <!--desno navigacija-->
                 <nav>
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a>Gallery</a></li>
+                        <li><a href="pages/biography.html">Biography</a></li>
+                        <li><a href="pages/gallery.html">Gallery</a></li>
                         <li><a>Author</a></li>
                         <li><a>Contact me</a></li>
                     </ul>
@@ -38,13 +39,13 @@
             <div>
                <!--slika i link ka biografiji-->
                 <div class="slikelink">
-                    <a href="#">
+                    <a href="pages/biography.html">
                         <img src="assets/img/1.png" alt="neka slika"/>
                     </a>    
                 </div>
             
                 <div class ="slikelink">
-                    <a href="#">
+                    <a href="pages/gallery.html">
                         <img src="assets/img/1.png" alt="neka slika"/>
                     </a> 
                 </div>
@@ -57,8 +58,10 @@
 
                 <div class="followicon">
                     <p>Follow us</p>
-                    <i class="fab fa-facebook-square"></i>
-                    <i class="fab fa-instagram-square"></i>
+                   <div class="followicon-icons-wrapper">
+                       <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                       <a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a>
+                   </div>
                 </div>
                 
                 <div class="cleaner">
