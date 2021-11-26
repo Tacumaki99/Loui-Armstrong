@@ -58,20 +58,19 @@ header nav ul li {
     float: left;
 }
 
+.followicon { 
+    width: fit-content;
+    margin: auto;
+}
+
 .followicon  i {
     color: #4267B2;
     font-size: 35px;
-    margin: auto;
 }
 
 .followicon p {
     font-size: 35px;
 }
-
-.followicon {
-    margin: auto;
-}
-
 
 
 footer {
@@ -84,4 +83,10 @@ footer p {
     color: white;
     width: fit-content;
     height: fit-content;
+}
+
+
+footer i {
+    color:  white;
+    font-size: 30px;
 }
