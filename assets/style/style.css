@@ -22,41 +22,70 @@ body{
 }
 
 .page1{
-    /* background-image: url(../img/1.png); */
-    background-color: cornflowerblue;
+    background-image: url(../img/Louis\ Armstrong.jpg); 
     background-position: center;
     background-repeat:no-repeat ;
     background-size:cover;
     height: 1000px;
-    padding: 50px;    
+    padding: 15px 35px;    
 }
 
 
 
 header h1{
     font-size: 45pt;
-    float: left;    
+    float: left; 
+    color: white;   
 }
 
 
 header nav ul{
     list-style-type: none;
     margin-right: 2%;
-    float: right
+    float: right;
 }
 
 
 header nav ul li {
-    float: left ;
+    /* float=left */
     font-size: 25pt;
     padding: 10px;
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
 }
 
 
-.slikelink{
+.slikalink{
     margin:5%;
     float: left;
+    width: 40%;
+    height: 400px;
+    position: relative;
 }
+
+
+
+.slikalink img {
+    width: 100%;
+    display: block;
+}
+
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: black;
+    color: #f1f1f1; 
+    width: 100%;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+
+
 
 .followicon {
     width: fit-content;
@@ -134,18 +163,114 @@ footer i {
     margin: 10px;
 }
 
-.early-life {
+
+
+#no2 h3{
+    font-size: 55px;
+}
+
+#no2 p{
+    text-indent: 50px;
+    margin: 13px 0;
+}
+
+.early-life-text {
     margin: 5%;
     text-align: left;
     width: 50%;
     font-size: 25px;
+    float: left;
 }
 
-.early-life h3{
-    font-size: 55px;
+.early-life img {
+    width: 25%;
+    float: left;
+    margin: 10% 7%;
 }
 
-.early-life p {
-    text-indent: 50px;
-    margin: 13px 0;
+.king-oliver-text{
+    margin:5%;
+    text-align: left;
+    width: 35%;
+    font-size: 25px;
+    float: left;
 }
+
+.king-oliver img {
+    width: 40%;
+    float: left;
+    margin: 5% 7%;
+}
+
+.first-spouse-text{
+    margin:5%;
+    text-align: left;
+    width: 35%;
+    font-size: 25px;
+    float: left;
+}
+
+.first-spouse img {
+    width: 40%;
+    float: left;
+    margin: 5% 7%;
+}
+
+.fate-marable-text{
+    margin:5%;
+    text-align: left;
+    width: 45%;
+    font-size: 25px;
+    float: left;
+}
+
+.fate-marable img {
+    width: 30%;
+    float: left;
+    margin: 5% 7%;
+}
+
+hr {
+    height: 5px;
+    width: 85%;
+    margin:auto;
+    background-color: black;
+}
+
+.page3{
+    margin: 5%;
+}
+
+
+
+.gallery img{
+    margin: 5px;
+    float: left;
+    width: 35%;
+    height: 30%;
+}
+
+.page4 {
+    padding: 15px 35px;
+    background-color: black;
+}
+
+
+
+.autor{
+    margin:5%;
+    padding-top: 30px;
+    
+
+}
+
+.autor img {
+    float: left;
+    margin-right: 5%;
+    width: 25%;
+}
+
+.autor p {
+    font-size: 25pt;
+}
+
