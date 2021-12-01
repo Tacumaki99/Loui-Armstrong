@@ -283,7 +283,7 @@ hr {
 .side {
     width: 40%;
     height: 70%;
-    margin: 2%%;
+    margin: 2%;
     float: left;
 }
 
@@ -307,7 +307,7 @@ form p{
     margin:40px auto;
     box-shadow: -13px -13px #8c8c8c ;
     border-radius: 2em;
-    height: 300px;
+    height: 400px;
 }
 
 .side label{
