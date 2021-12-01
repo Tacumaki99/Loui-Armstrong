@@ -1,0 +1,17 @@
+<rss version="2.0">
+    <channel>
+        <title>Notifications</title>
+        <link>https://tacumaki99.github.io/Loui-Armstrong/index.html</link>
+        <description>What we add about Louis Armstrong</description>
+        <item>
+        <title>New text about Louis</title>
+        <link>https://tacumaki99.github.io/Loui-Armstrong/pages/biography.html</link>
+        <description>Biography about Louis Armstrong</description>
+        </item>
+        <item>
+        <title>Some new photos</title>
+        <link>https://tacumaki99.github.io/Loui-Armstrong/pages/gallery.html</link>
+        <description>New photos</description>
+        </item>
+    </channel>
+</rss>

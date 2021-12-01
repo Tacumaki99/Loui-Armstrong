@@ -14,7 +14,7 @@
         <title>Louis Armstrong</title>
     </head>
     <body>
-        <div id="no2">
+        <div id="no5">
             <header class="page1">
                 <!---levo naslov-->
                     <h1>Contact</h1>
@@ -29,45 +29,39 @@
                         </ul>
                     </nav>
                     <div class="cleaner">
+                        </div>
+                          
                 </header>
-            <div class="contact">
-                <!--pasus-->
-                <p>If there is something that i missed abou Louis Armstront's life that should
-                    be mentioned in the text, or anything else you can fill the form to contact me.
-                </p>
-                <!--forma-->
-
-            
-                    <form action="action_page.php">
-
-                        <label for="ime">Ime</label>
-                        <input type="text" id="ime" name="ime" placeholder="Vase ime">
-    
-                        <label for="prezime">Prezime</label>
-                        <input type="text" id="prezime" name="prezime" placeholder="Vase prezime">
-    
-                        <label for="vrsta">Vrsta kontakta:</label>
-                        <select id="vrsta" name="vrsta">
-                            <option value="pitanje">Prijava za program</option>
-                            <option value="reklamiacija">Pitanje</option>
-                            <option value="ostalo">Ostalo</option>
-                        </select>
-    
-                        <label for="VasaPoruka">Vasa poruka:</label>
-                        <textarea id="VasaPoruka" name="VasaPoruka" placeholder="Vasa poruka za nas.." style="height:200px"></textarea>
-    
-                        <input type="submit" value="Posalji">
-    
+                <div class="contact">
+          
+                    <form action="#">
+                        
+                            <p>If there is something that i missed about Louis Armstront's life that should
+                                be mentioned in the text, or anything else you can fill the form to contact me.
+                            </p>
+                        <div class="formbox">
+                        <div class="side">
+                            <label>Name:</label> 
+                            <input  type="text" name="name"/>
+                            <label>Email:</label>
+                            <input  type="text" name="email"/>
+                        </div>
+                        <div class="side">
+                            <label>Your message:</br></label>
+                            <textarea name="message"></textarea>
+                        </div>  
+                        <div class="cleaner" ></div> 
+                    </div>
                     </form>
-                
-
-            </div>
+                    
+    
+                </div> 
                 
             <footer>
 				
                 <p>&copy; copyright 2021 design concept by <span>Tamara Pavlović</span>.</p>
-                <i class="fas fa-rss-square"></i>
-                <i class="fas fa-sitemap"></i>
+                <a href="../rss.xml"><i class="fas fa-rss-square"></i></a>
+                <a target="_blank" href="../sitemap.xml"><i class="fas fa-sitemap"></i></a>
             </footer>
         </div>
     </body>
