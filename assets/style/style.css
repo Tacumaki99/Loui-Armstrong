@@ -341,6 +341,17 @@ textarea:hover {
     
 }
 
+input[type=submit]{
+    height: 40px;
+    width: 100px;
+    margin: auto 25px;
+    float: right;
+    font-size: 25px;
+    box-shadow: 0 0 10px #777777
+    ;
+}
+
+
 
 
 
